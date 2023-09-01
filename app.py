@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import streamlit as st
-
+from eda_app import run_eda_app
 
 def main():
 
@@ -13,7 +13,8 @@ def main():
     if choice == "Home":
         st.subheader("Home")
     elif choice == "탐색적 자료 분석":
-        st.subheader("탐색적 자료 분석")
+        # st.subheader("탐색적 자료 분석")
+        run_eda_app()
     elif choice == "머신러닝":
         st.subheader("머신러닝")
     elif choice == "About":
