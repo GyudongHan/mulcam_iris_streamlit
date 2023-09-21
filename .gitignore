@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# .gitignore 폴더 무시
+data/
+
 # C extensions
 *.so
 
