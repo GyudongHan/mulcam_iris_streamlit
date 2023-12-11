@@ -32,7 +32,7 @@ def run_geo_app():
     submenu = st.sidebar.selectbox("submenu", ['통계', '지도'])
     if submenu == "통계":
         st.subheader("통계")
-        st.write(geo_data)
+        st.write("확인중")
 
     elif submenu == "지도":
         st.write("확인중")
